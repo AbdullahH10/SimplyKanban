@@ -1,0 +1,22 @@
+//global styles and changing bulma variables
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@400;700&display=swap');
+
+$family-sans-serif: 'Poppins', sans-serif;
+
+//bulma-variables
+
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+html, body {
+    height: 100%;
+}
+
+html {
+    background-image: url('../src/assets/background.jpg');
+
+    background-size: cover;
+    overflow-y: auto !important;
+}
